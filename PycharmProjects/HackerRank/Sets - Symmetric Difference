@@ -1,0 +1,24 @@
+M1 = int(raw_input())
+M2 = raw_input()
+N1 = int(raw_input())
+N2 = raw_input()
+
+M2 = M2.split()
+M2 = list(map(int, M2))
+
+N2 = N2.split()
+N2 = list(map(int, N2))
+
+def find_the_num(M1, M2, N1, N2):
+    mylist = []
+    for num1 in set(M2):
+        if num1 not in N2:
+            mylist.append(num1)
+    for num2 in set(N2):
+        if num2 not in M2:
+            mylist.append(num2)
+    mylist.sort()
+    for elem in mylist:
+        print elem
+
+find_the_num(M1, M2, N1, N2)

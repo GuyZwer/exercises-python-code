@@ -1,0 +1,9 @@
+s = str(raw_input())
+word = str(raw_input())
+name_found = 0
+for string in s:
+    if word in s:
+        name_found += 1
+        s = s[s.index(word)+2:]
+
+print name_found

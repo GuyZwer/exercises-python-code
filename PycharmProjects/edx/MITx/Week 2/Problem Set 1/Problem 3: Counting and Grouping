@@ -1,0 +1,19 @@
+def item_order(order):
+    order = order.split()
+    salad = 0
+    hamburger = 0
+    water = 0
+    for step in range(len(order)):
+        if 'salad' in order:
+            salad += 1
+            del order[order.index('salad')]
+        if 'hamburger' in order:
+            hamburger += 1
+            del order[order.index('hamburger')]
+        if 'water' in order:
+            water += 1
+            del order[order.index('water')]
+    return (str('salad') + ':' + str(salad) + ' ' + str('hamburger') + ':' + str(hamburger) + ' ' + str('water') + ':' + str(water))
+
+
+

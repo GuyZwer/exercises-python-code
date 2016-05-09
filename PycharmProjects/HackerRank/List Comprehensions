@@ -1,0 +1,16 @@
+
+###This is my code
+x, y, z, n = (int(input()) for _ in range(4))
+list1 = []
+for a in range(0,x+1):
+    for b in range(0,y+1):
+        for c in range(0,z+1):
+            if a + b + c != n:
+                list1.append([a,b,c])
+
+print list1
+
+###This code from the "Discussions"
+x, y, z, n = int(input()), int(input()), int(input()), int(input())
+print ([[a,b,c] for a in range(0,x+1) for b in range(0,y+1) for c in range(0,z+1) if a + b + c != n ])
+
