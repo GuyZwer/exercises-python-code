@@ -4,7 +4,7 @@ Alternating Characters
 ---------------------
 Shashank likes strings in which consecutive characters are different. For example, he likes ABABA, while he doesn't like ABAA. Given a string containing characters AA and BB only, he wants to change it into a string he likes. To do this, he is allowed to delete the characters in the string.
 
-Your task is to find the minimum number of required deletions.
+Your task is to find the minimum number of required deletions..
 
 Input Format
 
@@ -81,6 +81,7 @@ Sample Output
 
 169.375
 
+<<<<<<< HEAD
 
 String Formatting
 -----------------------
@@ -120,4 +121,8 @@ Sample Output
    15    17     F  1111
    16    20    10 10000
    17    21    11 10001     
+=======
+---------------------------
+--------------------------
+>>>>>>> e067c5edcba856457feb541956fc74ddb8ac8567
 
