@@ -12,6 +12,7 @@ for loop in range(N):
         if strN[-2:]=='BB':
             count += 1
     print count
+print "end"
 
 
 
