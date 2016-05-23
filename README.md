@@ -20,6 +20,7 @@ Constraints
 1≤T≤101≤T≤10
 1≤1≤ length of string ≤105≤105
 
+
 Sample Input
 
 5
