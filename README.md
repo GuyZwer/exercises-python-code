@@ -23,6 +23,7 @@ Constraints
 Sample Input
 
 5
+
 AAAA
 BBBBB
 ABABABAB
