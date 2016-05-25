@@ -14,5 +14,4 @@ for loop1 in range(N2):
     D = set_of_num
     H.list_for_command[0](D)
     print H
-
 print H
