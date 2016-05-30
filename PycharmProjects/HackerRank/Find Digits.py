@@ -1,10 +1,7 @@
 #!/bin/python
 
 import sys
-
-
 t = int(raw_input())
-
 for a0 in range(t):
     n = int(raw_input())
     num = 0
