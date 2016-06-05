@@ -307,3 +307,6 @@ Explanation
 
 The list of room numbers contains elements. Since is , there must be groups of families. In the given list, all of the numbers repeat times except for room number .
 Hence, is the Captain's room number.
+
+
+my code have fucked up
